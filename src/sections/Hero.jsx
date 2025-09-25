@@ -1,20 +1,28 @@
 import { Canvas, useFrame } from "@react-three/fiber";
 import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
-import { Astronaut } from "../components/Astronaut";
-import { Float } from "@react-three/drei";
+// import { Astronaut } from "../components/Astronaut";
+// import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
 import Loader from "../components/Loader";
+import ProfileCircle from "../components/ProfileCircle";
+import { Float, OrbitControls } from "@react-three/drei";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
   return (
-    <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space">
+    <section className="flex items-start justify-center min-h-screen overflow-hidden md:items-start md:justify-start c-space" id="home">
       <HeroText />
+    
+
+      {/* Rotating Profile Circle */}
+      <ProfileCircle />
+
+   
       <ParallaxBackground />
-      <figure
+      {/* <figure
         className="absolute inset-0"
         style={{ width: "100vw", height: "100vh" }}
       >
@@ -29,7 +37,8 @@ const Hero = () => {
             <Rig />
           </Suspense>
         </Canvas>
-      </figure>
+      </figure> */}
+       
     </section>
   );
 };

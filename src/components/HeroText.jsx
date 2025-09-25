@@ -18,7 +18,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi I'm Ali
+          Hi I'm BESELAMU 
         </motion.h1>
         <div className="flex flex-col items-start">
           <motion.p
@@ -27,8 +27,9 @@ const HeroText = () => {
             initial="hidden"
             animate="visible"
             transition={{ delay: 1.2 }}
+           
           >
-            A Developer <br /> Dedicated to Crafting
+             A Security Specialist <br /> Protecting Digital Assets
           </motion.p>
           <motion.div
             variants={variants}
@@ -48,7 +49,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Solutions
+            Security Solutions
           </motion.p>
         </div>
       </div>
@@ -61,7 +62,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Ali
+          Hi,I'm Beselamu 
         </motion.p>
         <div>
           <motion.p
@@ -71,7 +72,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Building
+            Securing 
           </motion.p>
           <motion.div
             variants={variants}
@@ -91,7 +92,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Applications
+            Digital Assets
           </motion.p>
         </div>
       </div>
