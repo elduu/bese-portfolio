@@ -75,25 +75,25 @@ export const myProjects = [
       { id: 3, name: "Vulnerability Assessment" },
     ],
   },
-  {
-    id: 5,
-    title: "Cisco Certified Network Associate (CCNA)",
-    description:
-      "Proficient in networking fundamentals, routing and switching, and securing Cisco-based networks.",
-    subDescription: [
-      "Configured and managed network devices including routers and switches.",
-      "Implemented network security policies and protocols.",
-      "Troubleshot connectivity and network performance issues.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/incident.png",
-    tags: [
-      { id: 1, name: "Networking" },
-      { id: 2, name: "Routing & Switching" },
-      { id: 3, name: "Network Security"},
-    ],
-  },
+  // {
+  //   id: 5,
+  //   title: "Cisco Certified Network Associate (CCNA)",
+  //   description:
+  //     "Proficient in networking fundamentals, routing and switching, and securing Cisco-based networks.",
+  //   subDescription: [
+  //     "Configured and managed network devices including routers and switches.",
+  //     "Implemented network security policies and protocols.",
+  //     "Troubleshot connectivity and network performance issues.",
+  //   ],
+  //   href: "",
+  //   logo: "",
+  //   image: "/assets/projects/incident.png",
+  //   tags: [
+  //     { id: 1, name: "Networking" },
+  //     { id: 2, name: "Routing & Switching" },
+  //     { id: 3, name: "Network Security"},
+  //   ],
+  // },
 ];
 
 export const mySocials = [
