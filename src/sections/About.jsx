@@ -17,7 +17,7 @@ const About = () => {
             className="absolute scale-[1.75] -right-[5rem] -top-[1rem] md:scale-[3] md:left-50 md:inset-y-10 lg:scale-[2.5]"
           />
           <div className="z-10">
-  <p className="headtext"> I'm Beselamu Demisse </p>
+  <p className="headtext"> I'm Beselamu Demissie </p>
   <p className="subtext">
     Over the last 12 years, I specialized in security analysis, governance, and risk 
     management — helping organizations strengthen defenses, ensure compliance, 
@@ -95,13 +95,22 @@ const About = () => {
         </div>
         {/* Grid 4 */}
         <div className="grid-special-color grid-4">
-          <div className="flex flex-col items-center justify-center gap-4 size-full">
-            <p className="text-center headtext">
-              Do you want to Work together?
-            </p>
-            <CopyEmailButton />
-          </div>
-        </div>
+  <div className="flex flex-col items-center justify-center gap-4 size-full">
+    <p className="text-center headtext">
+      Do you want to Work together?
+    </p>
+
+    {/* Download CV Button */}
+    <a
+      href="/assets/Beselamu CV Latest File2025_merged.pdf" // Place your CV in the public/ folder
+      download="Beselamu CV Latest File2025_merged.pdf"
+      className="px-6 py-3 bg-orange-600 text-white rounded-lg shadow-md hover:bg-orange-700 transition"
+    >
+      Download CV
+    </a>
+  </div>
+</div>
+
         {/* Grid 5 */}
         <div className="grid-default-color grid-5">
           <div className="z-10 w-[50%]">

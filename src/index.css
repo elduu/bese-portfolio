@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 @import "tailwindcss";
 @theme {
@@ -46,6 +47,15 @@
       transform: translateY(calc(-100% - var(--gap)));
     }
   }
+}
+
+html {
+  font-size: 16px; /* lock base font size */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 body {
   background: #030412;
