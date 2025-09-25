@@ -5,12 +5,13 @@ const ProfileCircle = () => {
     <div className="relative z-10  w-[500px] h-[500px] flex items-center justify-center mt-24">
       {/* Rotating border ring */}
       <div
-        className="absolute inset-0 rounded-full p-[6px] bg-gradient-to-tr from-blue-600 to-orange-400"
+        className="relative inset-0 rounded-full p-[6px] bg-gradient-to-tr from-blue-600 to-orange-400"
         style={{
           animation: "spin-slow 12s linear infinite",
         }}
       >
-        <div className="w-full h-full rounded-full bg-white"></div>
+       
+        {/* <div className=" relative w-full z-50  h-full rounded-full bg-white"></div> */}
       </div>
 
       {/* Static profile image */}
