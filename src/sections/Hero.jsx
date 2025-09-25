@@ -3,6 +3,7 @@ import HeroText from "../components/HeroText";
 import ParallaxBackground from "../components/ParallaxBackground";
 // import { Astronaut } from "../components/Astronaut";
 // import { Float } from "@react-three/drei";
+// import { Float } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 import { easing } from "maath";
 import { Suspense } from "react";
