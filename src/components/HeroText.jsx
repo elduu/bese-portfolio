@@ -10,7 +10,7 @@ const HeroText = () => {
   return (
     <div className=" relative z-10 flex items-center justify-center mt-24 md:text-left rounded-3xl bg-clip-text">
       {/* Desktop View */}
-      <div className="flex-col hidden md:flex c-space">
+      <div className=" relative flex-col hidden md:flex c-space">
         <motion.h1
           className="text-4xl font-medium"
           variants={variants}
