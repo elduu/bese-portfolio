@@ -16,7 +16,7 @@ function Navigation() {
        
       <li className="nav-li">
         <a className="nav-link" href="#certificates">
-          certificate
+          certificates
         </a>
       </li>
       <li className="nav-li">
