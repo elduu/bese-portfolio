@@ -2,10 +2,10 @@
 
 const ProfileCircle = () => {
   return (
-    <div className="relative z-10  w-[500px] h-[500px] flex items-center justify-center mt-24">
+    <div className="relative  w-[400px] h-[400px] flex items-center justify-center mt-20">
       {/* Rotating border ring */}
       <div
-        className="relative inset-0 rounded-full p-[6px] bg-gradient-to-tr from-blue-600 to-orange-400"
+        className=""
         style={{
           animation: "spin-slow 12s linear infinite",
         }}
