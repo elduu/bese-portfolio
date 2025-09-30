@@ -12,9 +12,8 @@ function Navigation() {
         <a className="nav-link" href="#about">
           About
         </a>
-      </li>
-       
-      <li className="nav-li">
+      </li>   
+    <li className="nav-li">
         <a className="nav-link" href="#certificates">
           certificates
         </a>
